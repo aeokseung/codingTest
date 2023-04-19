@@ -18,7 +18,7 @@ public class b8958 {
 			// arr[0].length()=10
 			for (int j = 0; j < arr[i].length(); j++) {
 				// arr[0]의 배열에서 O또는 X를 한 개씩 O와 같은지 비교, 같으면 cnt값 1 증가
-				// 이 부분 질문하기
+				// cnt값이 1이 되면 바로 sum에 1 넣어주고 2가 되면 2를 바로 넣어준다
 				if (arr[i].charAt(j) == 'O') {
 					cnt++;
 				} else {

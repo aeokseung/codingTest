@@ -12,7 +12,7 @@ public class b1546 {
 		double sum = 0;
 
 		for (int i = 0; i < n; i++) {
-			// 배열이 만들어지는건가요?
+			// nextToken을 쓰면 알아서 다음 값들을 비교해준다
 			int num = Integer.parseInt(st.nextToken());
 			System.out.print(num);
 			// 시험 점수 최댓값 구하기

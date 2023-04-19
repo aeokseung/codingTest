@@ -11,7 +11,6 @@ public class b10809 {
 		}
 		String s = br.readLine();
 		// 'b' - 'a' = 1
-		// ?
 		for (int i = 0; i < s.length(); i++) {
 			char ch = s.charAt(i);
 			if (arr[ch - 'a'] == -1) {
